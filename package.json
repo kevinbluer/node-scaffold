@@ -1,9 +1,9 @@
 {
   "author": "Kevin Bluer <kevin@bluer.com> (http://www.bluer.com)",
-  "name": "FIF",
-  "description": "Fluent in Foreign",
+  "name": "Name",
+  "description": "Description",
   "version": "0.0.1",
-  "homepage": "fluentinforeign.heroku.com",
+  "homepage": "domain.com",
   "repository": {
     "url": ""
   },
@@ -12,9 +12,7 @@
     "node": "~0.6.5"
   },
   "dependencies": {
-    "express": "2.2.0",
-    "mailer": "0.6.7",
-	"mimelib-noiconv":"*"
+    "express": "3.0.0rc1"
   },
   "devDependencies": {}
 }
