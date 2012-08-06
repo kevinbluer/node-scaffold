@@ -1,9 +1,6 @@
 // for express
 var express = require('express');
 
-// mailer
-var email = require("mailer");
-
 // create the express instance
 var app = module.exports = express.createServer();
 
