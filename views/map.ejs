@@ -1,0 +1,26 @@
+<div id="map_canvas" style="width:100%; height: 100%; border: solid 1px red;"></div>
+
+<script>
+
+        
+        var myOptions = {
+            center: new google.maps.LatLng(40.723229, -74.00657),
+            zoom: 12,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        
+        var mapElement = $("#map_canvas");
+
+
+        var infowindow;
+        
+        var map = new google.maps.Map(mapElement[0], myOptions);
+
+
+        var marker = new google.maps.Marker({
+            map: mapElement[0],
+            position: new google.maps.LatLng(<%- items.where[0] %>, <%- items.where[1] %>),
+            icon: "/img/bird.png"
+        });
+
+</script>
