@@ -27,7 +27,7 @@ app.configure('development', function(){
 });
 
 app.configure('production', function(){
-  mongoose.connect('mongodb://flocate:fl0c@t3@staff.mongohq.com:10043/flocate');
+  mongoose.connect('mongodb://flocate:fl0cat3@staff.mongohq.com:10043/flocate');
     app.use(express.errorHandler());
 
 });
