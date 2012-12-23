@@ -63,7 +63,7 @@ app.get('/map', function(req, res) {
 
     res.render('map.ejs', { 
       layout: true,
-      items: items[0]
+      items: items
     });
     
   });
